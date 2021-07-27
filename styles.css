@@ -1,0 +1,51 @@
+body {
+    height: 100%;
+  }
+  body {
+    background: #0f3854;
+    background-image: url(https://i.pinimg.com/originals/3f/8a/1e/3f8a1e3a84a968369e7b34009cfd6182.gif);
+    background-size: 100%;
+  }
+  
+  #timer-1 {
+    font-family: 'Press Start 2P', cursive;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+    
+    line-height: 2
+  }
+  .days {
+    letter-spacing: 0.05em;
+    font-size: 100px;
+    margin-right: 20px;
+  }
+  .hours {
+    letter-spacing: 0.05em;
+    font-size: 100px;
+  
+    margin-right: 20px;
+  }
+  .minutes {
+    letter-spacing: 0.1em;
+    margin-right: 20px;
+    font-size: 100px;
+  }
+  .secs {
+    font-size: 100px;
+    margin-right: 20px;
+    letter-spacing: 0.1em;
+    padding: 20px 0 0;
+  }
+  
+  .field {
+    text-align: center;
+    margin-right: 50px;
+  }
